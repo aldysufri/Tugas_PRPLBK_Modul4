@@ -1,24 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { BrowserRouter, Link, Route, Switch } from 'react-router-dom';
+
+import Kelompok from './Components/Kelompok/Index';
+import Home from './Components/Home/Index';
+import Kaos from './Components/Kaos/Index';
+import Kemeja from './Components/Kemeja/Index';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <BrowserRouter>
+     <header>
+        <div className="title">
+          <Link className="text" to="/">
+            Kelompok 16
+          </Link>
+        </div>
+        <nav>
+          <Link className="text" to="/home">
+            Home 
+          </Link>
+          <Link className="text" to="/kaos">
+            Kaos 
+          </Link>
+          <Link className="text" to="/kemeja">
+            Kemeja
+          </Link>
+        </nav>
       </header>
-    </div>
+      <Switch>
+        <Route path="/" exact component={Kelompok} />
+        <Route path="/home" exact component={Home} />
+        <Route path="/kaos" exact component={Kaos} />
+        <Route path="/kemeja" exact component={Kemeja} />
+      </Switch>
+    </BrowserRouter>
   );
 }
 

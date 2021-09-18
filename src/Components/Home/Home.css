@@ -1,0 +1,16 @@
+.Button {
+    margin: 20px;
+}
+
+.name {
+    font-size: 40px;
+    color: white;
+}
+
+.jam {
+    color: white;
+    font-size: 100px;
+    font-weight: bold;
+    margin-top: 100px;
+    text-align: center;
+}

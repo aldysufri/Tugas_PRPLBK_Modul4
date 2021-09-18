@@ -1,0 +1,104 @@
+{
+  "Kaos": [
+    {
+      "name": "Kaos Hijau Polos",
+      "image": "https://source.unsplash.com/xPJYL0l5Ii8/230x230",
+      "des": "velit leo tempus purus",
+      "harga": "Rp.50.000.00-,"
+    },
+    {
+      "name": "Kaos Hitam",
+      "image": "https://source.unsplash.com/FoF0w-d6Z74/230x230",
+      "des": "velit leo tempus purus",
+      "harga": "Rp.50.000.00-,"
+    },
+    {
+      "name": "Kaos Pantai Putih",
+      "image": "https://source.unsplash.com/9ShY-Tq70Mc/230x230",
+      "des": "velit leo tempus purus",
+      "harga": "Rp.50.000.00-,"
+    },
+    {
+      "name": "Kaos Biru Muda",
+      "image": "https://source.unsplash.com/AqLIkOzWDAk/230x230",
+      "des": "velit leo tempus purus",
+      "harga": "Rp.50.000.00-,"
+    },
+    {
+      "name": "Kaos Merah",
+      "image": "https://source.unsplash.com/QarKZGj0mzk/230x230",
+      "des": "velit leo tempus purus",
+      "harga": "Rp.50.000.00-,"
+    },
+    {
+      "name": "Kaos Merah Hitam",
+      "image": "https://source.unsplash.com/9PVUNBgqVRo/230x230",
+      "des": "velit leo tempus purus",
+      "harga": "Rp.50.000.00-,"
+    },
+    {
+      "name": "Kaos Putih Polos",
+      "image": "https://source.unsplash.com/WWesmHEgXDs/230x230",
+      "des": "velit leo tempus purus",
+      "harga": "Rp.50.000.00-,"
+    },
+    {
+      "name": "Kaos Merah",
+      "image": "https://source.unsplash.com/Rr1Vf1W2nl0/230x230",
+      "des": "velit leo tempus purus",
+      "harga": "Rp.50.000.00-,"
+    }
+
+  ],
+
+  "Kemeja" : [
+    {
+      "name": "Kemeja Putih Pendek",
+      "image": "https://source.unsplash.com/9QW52RyBLao/230x230",
+      "des": "velit leo tempus purus",
+      "harga": "Rp.100.000.00-,"
+    },
+    {
+      "name": "Kemeja Biru Kotak",
+      "image": "https://source.unsplash.com/mEBXaipoUmg/230x230",
+      "des": "velit leo tempus purus",
+      "harga": "Rp.100.000.00-,"
+    },
+    {
+      "name": "Kemeja Biru",
+      "image": "https://source.unsplash.com/2O1EUSTRBrY/230x230",
+      "des": "velit leo tempus purus",
+      "harga": "Rp.100.000.00-,"
+    },
+    {
+      "name": "Kemeja Putih Corak",
+      "image": "https://source.unsplash.com/YJN7eCPiCPc/230x230",
+      "des": "velit leo tempus purus",
+      "harga": "Rp.100.000.00-,"
+    },
+    {
+      "name": "Kemeja Kotak Kuning",
+      "image": "https://source.unsplash.com/4V4t0JcOM5E/230x230",
+      "des": "velit leo tempus purus",
+      "harga": "Rp.100.000.00-,"
+    },
+    {
+      "name": "Kemeja Kotak Merah",
+      "image": "https://source.unsplash.com/dJNtSjCDc74/230x230",
+      "des": "velit leo tempus purus",
+      "harga": "Rp.100.000.00-,"
+    },
+    {
+      "name": "Kemeja Biru Panjang",
+      "image": "https://source.unsplash.com/buaYEwJEQD8/230x230",
+      "des": "velit leo tempus purus",
+      "harga": "Rp.100.000.00-,"
+    },
+    {
+      "name": "Kemeja Garis Biru",
+      "image": "https://source.unsplash.com/4c23dXiYPhc/230x230",
+      "des": "velit leo tempus purus",
+      "harga": "Rp.100.000.00-,"
+    }
+  ]
+}

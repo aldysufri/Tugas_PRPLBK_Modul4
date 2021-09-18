@@ -1,38 +1,150 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Righteous&display=swap');
+
+body {
+  background-color: rgb(99, 112, 133);
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+header {
   display: flex;
-  flex-direction: column;
+  background-color: #92d6d6;
+  justify-content: space-between;
+  padding: 0 60px;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  height: 10vh;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.title p {
+  color: rgb(97, 218, 251);
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.text {
+  font-size: 24px;
   color: white;
+  text-decoration: none;
+  margin-right: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.text:hover {
+  color: rgb(120, 143, 150);
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.title {
+  color: white;
+  font-weight: bold;
+  font-size: 42px;
+}
+
+input {
+  border: none;
+  background-color: rgb(99, 112, 133);
+  border-bottom: 2px solid rgb(0, 0, 0);
+  padding: 10px 20px 10px 5px;
+  margin-bottom: 20px;
+  color: white;
+  font-size: 16px;
+}
+
+.Button {
+  background-color: #92d6d6;
+  color: rgb(40, 44, 52);
+  font-size: 18px;
+  padding: 15px;
+  font-weight: bold;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+  min-width: 100px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* Card */
+h5 {
+  margin: 0px;
+  font-size: 1.4em;
+  font-weight: 700;
+}
+
+p {
+  font-size: 14px;
+}
+
+
+h2 {
+  font-family: 'Permanent Marker', cursive;
+}
+
+.center {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.property-card {
+  height: 18em;
+  width: 14em;
+  display: flex;
+  margin: 20px;
+  flex-direction: column;
+  position: relative;
+  transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.property-image {
+  height: 10em;
+  width: 14em;
+  padding: 1em 2em;
+  position: Absolute;
+  top: 0px;
+  transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.property-description {
+  background-color: #FAFAFC;
+  height: 9em;
+  width: 14em;
+  position: absolute;
+  bottom: 0em;
+  transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  padding: 0.5em 1em;
+  text-align: center;
+}
+
+
+.property-card:hover .property-description {
+  height: 0em;
+  padding: 0px 1em;
+}
+
+.property-card:hover .property-image {
+  height: 18em;
+}
+
+.property-card:hover .property-social-icons {
+  background-color: white;
+}
+
+.kelompok {
+  font-size: 40px;
+  font-family: 'Bebas Neue', cursive;
+  color: white;
 }
